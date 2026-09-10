@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    background-color: #000;
+    color: #ddd;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.6;
+  }
+
+  header {
+    width: 100%;
+    background-color: #e30000;
+    text-align: center;
+    padding: 18px 15px;
+  }
+
+  header h1 {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  main {
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 20px 50px;
+  }
+
+  main h2 {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+  }
+
+  main p {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 10px;
+  }
+
+  main ul {
+    margin: 8px 0 10px 20px;
+    color: #bbb;
+    font-size: 14px;
+  }
+
+  main li {
+    margin-bottom: 6px;
+  }
+
+  main a {
+    color: #ff4d4d;
+    text-decoration: none;
+  }
+
+  main a:hover {
+    text-decoration: underline;
+  }
+
+  .updated {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    padding: 25px 15px 35px;
+    font-size: 12px;
+    color: #999;
+    line-height: 1.8;
+  }
+
+  footer a {
+    color: #999;
+    text-decoration: none;
+    margin: 0 6px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>Privacy Policy</h1>
+  </header>
+
+  <main>
+    <p class="updated" id="last-updated"></p>
+
+    <h2>1. Information We Collect</h2>
+    <p>We may collect basic information such as your name, email address, and browsing behavior when you interact with this website, subscribe to updates, or contact us directly.</p>
+
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+      <li>To respond to inquiries and provide support</li>
+      <li>To send updates, offers, or relevant communications</li>
+      <li>To improve our website and user experience</li>
+      <li>To comply with legal obligations</li>
+    </ul>
+
+    <h2>3. Cookies</h2>
+    <p>This website may use cookies to enhance your browsing experience. You can disable cookies through your browser settings at any time.</p>
+
+    <h2>4. Data Sharing</h2>
+    <p>We do not sell your personal information. We may share data with trusted service providers solely for the purpose of operating this website.</p>
+
+    <h2>5. Data Security</h2>
+    <p>We take reasonable measures to protect your information, but no method of transmission over the internet is completely secure.</p>
+
+    <h2>6. Your Rights</h2>
+    <p>You may request access to, correction of, or deletion of your personal data at any time by contacting us.</p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:lanovdigital@gmail.com">lanovdigital@gmail.com</a>.</p>
+  </main>
+
+  <footer>
+    Copyright 2026 Inc. - 7-DAY FRESH GREENS &reg;<br>
+    All rights reserved<br>
+    <a href="terms.html">Terms of Use</a> · <a href="privacy.html">Privacy Policy</a><br>
+    Emily Carter
+  </footer>
+
+  <script>
+    const today = new Date();
+    const formatted = today.toLocaleDateString('en-US', {
+      month: 'long',
+      day: 'numeric',
+      year: 'numeric'
+    });
+    document.getElementById('last-updated').textContent = `Last updated: ${formatted}`;
+  </script>
+
+</body>
+</html>

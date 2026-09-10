@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exclusive Class</title>
+<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script>
+<link rel="preload" href="https://scripts.converteai.net/15c55340-cc1a-4abb-9c8a-da5918cd9642/players/6aa2ef57ebdb035c290b7542/v4/player.js" as="script">
+<link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script">
+<link rel="preload" href="https://cdn.converteai.net/15c55340-cc1a-4abb-9c8a-da5918cd9642/6aa2eed1103a2972941a497d/main.m3u8" as="fetch">
+<link rel="dns-prefetch" href="https://cdn.converteai.net">
+<link rel="dns-prefetch" href="https://scripts.converteai.net">
+<link rel="dns-prefetch" href="https://images.converteai.net">
+<link rel="dns-prefetch" href="https://license.vturb.com">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1559309911942184');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1559309911942184&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- Utmify UTM Tracking -->
+<script>
+  var s = document.createElement("script");
+  s.src = "https://cdn.utmify.com.br/scripts/utms/latest.js";
+  s.async = true;
+  s.defer = true;
+  s.setAttribute("data-utmify-prevent-xcod-sck", "");
+  s.setAttribute("data-utmify-prevent-subids", "");
+  (document.head || document.documentElement).appendChild(s);
+</script>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Tarja de atenção */
+  .alerta {
+    width: 100%;
+    background-color: #e30000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+
+  .alerta span {
+    margin-right: 6px;
+  }
+
+  /* Área do vídeo */
+  .video-container {
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 15px;
+  }
+
+  .video-wrapper {
+    width: 100%;
+  }
+
+  /* Rodapé */
+  footer {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    padding: 25px 15px 35px;
+    font-size: 12px;
+    color: #999;
+    line-height: 1.8;
+  }
+
+  footer a {
+    color: #999;
+    text-decoration: none;
+    margin: 0 6px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+
+  <div class="alerta">
+    <span>⚠️</span>WARNING: This video will only be available until <strong id="deadline-date"></strong>
+  </div>
+
+  <div class="video-container">
+    <div class="video-wrapper">
+      <vturb-smartplayer id="vid-6aa2ef57ebdb035c290b7542" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"><div class="vturb-player-placeholder" style="position: relative; width: 100%; padding: 177.40740740740742% 0 0; z-index: 0; background-color: black;"></div></vturb-smartplayer>
+      <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/15c55340-cc1a-4abb-9c8a-da5918cd9642/players/6aa2ef57ebdb035c290b7542/v4/player.js", s.async=!0,document.head.appendChild(s); </script>
+    </div>
+  </div>
+
+  <footer>
+    Copyright 2026 Inc. - 7-DAY FRESH GREENS &reg;<br>
+    All rights reserved<br>
+    <a href="terms.html">Terms of Use</a> · <a href="privacy.html">Privacy Policy</a><br>
+    Emily Carter
+  </footer>
+
+  <script>
+    // Always fills the banner with today's date, US format (e.g. September 10, 2026)
+    const today = new Date();
+    const formatted = today.toLocaleDateString('en-US', {
+      month: 'long',
+      day: 'numeric',
+      year: 'numeric'
+    });
+    document.getElementById('deadline-date').textContent = formatted;
+  </script>
+
+</body>
+</html>
